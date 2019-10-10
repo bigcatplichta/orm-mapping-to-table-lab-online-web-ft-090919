@@ -49,10 +49,10 @@ class Student
   #   student
   # end
   
-  def self.create(student_info)
-    student = Student.new 
-    student_info.each {|k, v| student.send("#{k}=",v)}
-    student.save
-    student
-  end
+  # def self.create(student_info)
+  #   student = Student.new 
+  #   student_info.each {|k, v| student.send("#{k}=",v)}
+  #   student.save
+  #   student
+  # end
 end
