@@ -20,7 +20,7 @@ class Student
         name TEXT,
         age INTEGER 
         );
-      SQL 
+      SQL  
       
       DB[:conn].execute(sql)
   end 
