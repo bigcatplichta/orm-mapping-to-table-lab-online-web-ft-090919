@@ -21,5 +21,7 @@ class Student
         age INTEGER 
         );
       SQL 
+      
+      
   end 
 end
